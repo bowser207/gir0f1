@@ -1,0 +1,55 @@
+<html>
+  <head>
+    <title>Stuffed Animal Recognition</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+   <link rel="stylesheet" href="style.css">
+  
+  </head>
+  <body>
+    <h1>Stuffed Animal Recognition</h1>
+    <p style="font-size: 22px; color: green;" class="glyphicon glyphicon-pause">Parallel Line Deploy: Model identifies these animals.</p>
+  </body>
+
+<ae>
+  <b class="name_of_objects">
+    <br>
+    Dog
+    <hr>
+    Duck
+    <hr>
+    Horse
+    <hr>
+    Beaver
+    <hr>
+  </b>
+</ae>
+
+<label class="glyphicon glyphicon-camera">Webcam View - </label>
+      <div id="camera"></div>
+      <br><br>
+      <div id="result"></div>
+      <br><br>
+      <button class="glyphicon glyphicon-camera btn btn-info" onclick="take_snapshot()">Capture Image</button>
+      <br><br>
+      <button class="glyphicon glyphicon-check btn btn-success" onclick="check()">Identify Image</button>
+      <br><br>
+
+      <p class="glyphicon glyphicon-object-align-vertical" style="font-size: 22px;">Object :  </p>
+      <br>
+      <p class="glyphicon glyphicon-dashboard" style="font-size: 22px;">Accuracy :  </p>
+    </center>
+
+  </div>
+<script src="functioning.js"></script>
+
+  </body>
+</html>
+
+ 
